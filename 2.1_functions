@@ -1,0 +1,12 @@
+function countryInfo(country, population , capitalCity) {
+
+    return country + " has " + 
+    population + " million people and its capital city is " + capitalCity+"." ;
+}
+let var1 = countryInfo("spain", 47 , " Milan");
+let var2 = countryInfo("Argantina",350 , "buenos-aires");
+let var3 = countryInfo("Brazil", 420 , "Brazilia");
+
+console.log(var1);
+console.log(var2);
+console.log(var3);

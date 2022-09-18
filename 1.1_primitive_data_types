@@ -1,0 +1,27 @@
+
+//Basics 
+//data types
+
+// a variable whose value holds a number.
+let age =29; //Number
+console.log(typeof(age));
+
+// a variable whose value holds an object.
+let obj1 = Object(1);
+console.log(typeof(obj1));
+
+// a variable whose value holds a boolean.
+let student = true;
+console.log(typeof(student));
+
+// a variable whose value holds null.
+const loggedInUser = null;
+console.log(typeof(loggedInUse));
+
+// variable whose value is undefined.
+let color ;
+console.log(typeof(color));
+
+// a variable whose value holds a symbol.
+let firstName = 'Sahar'; //string
+console.log(type(str))

@@ -1,0 +1,27 @@
+let answer= parseInt(prompt ('Please inter a number score')) ;
+function nunScore (){
+
+    if (0 < answer ||  answer > 100 ){
+        return('Invalid entry')
+    }
+    
+    else if (answer <= 64){
+        return('F')
+    }
+    
+    else if (65 < answer < 69){
+        console.log ('D')
+    }
+
+    else if (70 < answer < 79){
+        console.log ('C')
+    }
+    
+    else if (80 < answer < 89){
+        console.log ('B')
+    }
+    
+    else {console.log('A')}
+
+}
+

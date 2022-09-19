@@ -1,0 +1,36 @@
+// From function declarations to explicit and implicit
+
+
+//EX1 - A
+function welcome() {
+    let welcome = 'Welcome to Appleseeds Bootcamp!';
+    return welcome;
+    }
+const welcome = () => 'Welcome to Appleseeds Bootcamp!';
+
+// EX1 -B
+
+    function power(a) {
+    let myNumber = a;
+    let result = Math.pow(myNumber, 2);
+    return result;
+    }
+    const power = (a) => Math.pow((myNumber=a), 2);
+
+
+// EX2- A
+    const squareRoot = a => Math.sqrt(a);
+
+    function squareRoot(a){
+        let myNumber=a
+        let squareRoot = Math.sqrt(a);
+        return result
+    }
+
+// EX2 -B 
+    const randomNumbers = (a, b) => Math.random() * (a - b) +b;
+
+    function randomNumbers (a, b) {
+    let result = Math.random() * (a - b) +b;
+    return result
+    }

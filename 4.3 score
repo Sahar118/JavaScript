@@ -1,0 +1,20 @@
+var ScoreJohns = [89, 120, 103];
+var ScoreMikes = [116, 94, 123];
+
+function average(score) {
+  let total = 0;
+  for (let i = 0; i < score.length; i++) {
+    total += score[i];
+  }
+  return total / 3;
+}
+let avgScoreJohn = average(ScoreJohns);
+let avgScoreMike = average(ScoreMikes);
+
+if (avgScoreJohn > avgScoreMike) {
+  console.log("John is the winner with average score of " + avgScoreJohn);
+} else if (avgScoreMike > avgScoreJohn) {
+  console.log("Mike is the winner with average score of " + avgScoreMike);
+} else {
+  console.log("...it's a tie!");
+}

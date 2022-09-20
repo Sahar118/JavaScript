@@ -1,0 +1,10 @@
+const countryToLiveIn = (language, isIsland, population, country) => {
+  if (language === "english" && isIsland !== true && population < 50) {
+    console.log(`You should live in ${country}`);
+  } else {
+    console.log(`${country} does not meet your criteria`);
+  }
+};
+
+countryToLiveIn("english", false, 20, "Argantina");
+countryToLiveIn("spanish", false, 20, "Argantina");

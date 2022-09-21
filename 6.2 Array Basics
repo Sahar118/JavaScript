@@ -1,0 +1,38 @@
+// 1. Using a loop, iterate through this array and console.log all
+// of the people.
+
+for (i = 0; i < peopleName.length; i++) {
+  console.log(peopleName(i));
+}
+// 2. Write the command to remove "Greg" from the array.
+
+console.log(peopleName.pop("Greg"));
+
+// 4. Write the command to add "Matt" to the front of the array.
+console.log(peopleName.unshift("Matt"));
+
+// 5. Write the command to add your name to the end of the
+// array.
+console.log(peopleName.push(Sahar));
+const people = ["Greg", "Mary", "Devon", "James"];
+
+// 6. Using a loop, iterate through this array, and after
+// console.log "Mary", exit from the loop.
+let i = 0;
+while (people[i] != "Mary") {
+  console.log(people[i]);
+  i++;
+}
+// 7. Write the command to make a copy of the array using a
+// slice. The copy should NOT include "Mary" or "Matt".
+console.log(people.slice(2));
+// 8. Write the command that gives the indexOf where "Mary"
+// is located.
+
+console.log(people.indexOf("Mary"));
+// 9. Write the command that gives the indexOf where "Foo" is
+// located (this should return -1).
+console.log(people.indexOf("foo"));
+// 10. Redefine the people variable with the value you started
+// with. Using the splice command, remove "Devon" from
+console.log(people.splice(2, 1, "Elizabeth", "Artie"));

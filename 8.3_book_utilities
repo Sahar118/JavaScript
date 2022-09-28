@@ -1,0 +1,48 @@
+// create 2 book objects with properties: name, author, year.
+
+const Book1 = {
+  book: "Harry Potter and the Deathly Hallows",
+  authorName: "J. K. Rowling",
+  PublishingYear: 2007,
+};
+
+const Book2 = {
+  book: "1000 Years of Joys and Sorrows",
+  authorName: "Ai Weiwei",
+  PublishingYear: 2021,
+};
+
+
+const bookUtils={
+  getFirstPublished (obj1, obj2) {
+    if(obj1.PublishingYear > obj2.PublishingYear)
+    return obj2
+  }else{
+    obj1
+  } 
+  
+  setNewEdition (book, edditionYear){
+  if (edditionYear > book.PublishingYear)
+    book.latestEddition = edditionYear;
+  }
+
+},
+setLanguage (book, language){
+  if ()
+}
+
+
+// 5. add to the bookUtils object a setLanguage function, that
+// receives a book and a language and sets a new property
+// language with the languahe, or updates an existing one.
+// 6. add to the bookUtils object a setTranslation function, that
+// receives a book a language and a translator, and sets a
+// new property of translation, which is an object that
+// contains the translator and the language.
+// 7. add to the bookUtils object a setPublisher function, that
+// receives a book a name and location, and sets a new
+// property named publisher, which is an object that contains
+// the name and location.
+// 8. add to the bookUtils object a function isSamePublisher,
+// which receives 2 books and checks if the publisher name
+// and location are identical in the 2 books.

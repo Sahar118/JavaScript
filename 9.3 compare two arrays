@@ -1,0 +1,18 @@
+// You are given two arrays:
+const food = ["Noodle", "Pasta", "Ice-cream", "Meat", "Cucumber", "Olives"];
+const food1 = ["Fries", "Ice-cream", "Pizza", "Olives", "Hamburgers"];
+// Create a function that takes these two arrays as
+// arguments.
+// Compare these two arrays using 2 for loops and return the
+// items that are the same. If none are the same return false.
+
+const CompareFood = (food, food1) => {
+  let sameArr = [];
+  for (let i = 0; i < food.length; i++) {
+    if (food1.includes(food[i])) {
+      sameArr.push(food[i]);
+    }
+  }
+  return sameArr.length > 0 ? sameArr : false;
+};
+console.log(CompareFood(food, food1));

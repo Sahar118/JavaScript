@@ -1,0 +1,41 @@
+// a. Array of words
+// a.1. Sort the array of strings from descending to ascending
+// order.
+
+const foods = ["falafel", "sabich", "hummus", "pizza with extra pineapple"];
+foods.sort((a, b) => b.length - a.length);
+
+// a.2. Sort the array of strings from ascending to descending
+// order.
+
+const foods = ["falafel", "sabich", "hummus", "pizza with extra pineapple"];
+foods.sort((a, b) => a.length - b.length);
+// *****************************************************************
+
+// b. Let's sort an array of words that includes a word with an
+// uppercase:
+const foods = ["falafel", "sabich", "hummus", "pizza with extra pineapple"];
+
+// b.1. Sort the array of strings from descending to ascending
+// order.
+
+const foodsWithUpperCase = [
+  "falafel",
+  "Sabich",
+  "hummus",
+  "pizza with extra pineapple",
+];
+foodsWithUpperCase.sort((a, b) => a.lengthb - b.length);
+// b.2. Sort the array of strings from ascending to descending
+// order.
+
+foodsWithUpperCase.sort((a, b) => b.length - a.length);
+
+// *****************************************************************
+// c. Longest word
+
+// c.1. Sort the array of strings from the longest word to the
+// shortest word only using the sort function
+
+const words = ["apple", "supercalifragilisticexpialidocious", "hi", "zoo"];
+words.sort((a, b) => b.length - a.length);

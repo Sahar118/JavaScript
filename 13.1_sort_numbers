@@ -1,0 +1,16 @@
+// Use the array of numbers below and answer the following
+// questions:
+
+// 1. Sort the array of numbers from descending to ascending
+// order.
+
+const numbers = [1, -5, 666, 2, 400, 11];
+numbers.sort();
+const sort1 = numbers.sort((a, b) => a - b);
+
+// 2. Sort the array of numbers from ascending to descending
+// order.
+
+const numbers = [1, -5, 666, 2, 400, 11];
+numbers.sort();
+const descsort = numbers.sort((a, b) => b - a);

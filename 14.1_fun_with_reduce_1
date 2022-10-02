@@ -1,0 +1,25 @@
+// Write the following functions using the reduce built-in function.
+// 1. max
+const Grades = [87, 85, 96, 99];
+
+const maxGrade = Grades.reduce((max, currVal) => {
+  if (currVal > max) return currVal;
+  return max;
+});
+console.log(maxGrade);
+
+// ******************************
+// 2. the sum of even numbers
+
+const sum = [10, 20, 30, 40].reduce((sum, currVal) => {
+  return sum + currVal;
+});
+
+console.log(sum);
+
+// ******************************
+// 3. average
+const array1 = [1, 2, 3, 4];
+
+const average = array1.reduce((a, b) => a + b) / array1.length;
+console.log(average);
